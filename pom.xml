@@ -34,7 +34,7 @@
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<lanterna.version>3.1.1</lanterna.version>
-		<msk.version>2.17.124</msk.version>
+		<msk.version>2.17.131</msk.version>
 		<slf4j.version>1.7.32</slf4j.version>
 	</properties>
 
