@@ -34,7 +34,7 @@
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<lanterna.version>3.1.1</lanterna.version>
-		<msk.version>2.17.131</msk.version>
+		<aws.version>2.17.133</aws.version>
 		<slf4j.version>1.7.32</slf4j.version>
 	</properties>
 
@@ -46,11 +46,18 @@
 			<version>${lanterna.version}</version>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/software.amazon.awssdk/s3 -->
+		<dependency>
+			<groupId>software.amazon.awssdk</groupId>
+			<artifactId>s3</artifactId>
+			<version>${aws.version}</version>
+		</dependency>
+
 		<!-- https://mvnrepository.com/artifact/software.amazon.awssdk/kafka -->
 		<dependency>
 			<groupId>software.amazon.awssdk</groupId>
 			<artifactId>kafka</artifactId>
-			<version>${msk.version}</version>
+			<version>${aws.version}</version>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12/ -->
