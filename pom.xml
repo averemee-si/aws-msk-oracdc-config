@@ -3,18 +3,18 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>eu.solutions.a2.aws.msk.oracdc.config</groupId>
+	<groupId>solutions.a2.aws.msk.oracdc.config</groupId>
 	<artifactId>aws-msk-oracdc-config</artifactId>
-	<version>0.1.0</version>
+	<version>0.2.0</version>
 
 	<name>aws-msk-oracdc-config</name>
-	<url>http://a2-solutions.eu</url>
+	<url>https://a2-solutions.eu</url>
 	<description>
 		oracdc configuration wizard for AWS MSK and AWS Glue Schema Registry
 	</description>
 	<organization>
 		<name>A2 Rešitve, d.o.o.</name>
-		<url>http://a2-solutions.eu/</url>
+		<url>https://a2-solutions.eu/</url>
 	</organization>
 	<issueManagement>
 		<url>https://github.com/averemee-si/aws-msk-oracdc-config/issues</url>
@@ -24,7 +24,7 @@
 	<licenses>
 		<license>
 			<name>Apache License</name>
-			<url>http://a2-solutions.eu/licenses/apache/LICENSE.txt</url>
+			<url>https://a2-solutions.eu/licenses/apache/LICENSE.txt</url>
 			<distribution>repo</distribution>
 		</license>
 	</licenses>
@@ -99,7 +99,7 @@
 					</descriptors>
 					<archive>
 						<manifest>
-							<mainClass>eu.solutions.a2.aws.msk.oracdc.config.AwsMskGlueOracdcConfig</mainClass>
+							<mainClass>solutions.a2.aws.msk.oracdc.config.AwsMskGlueOracdcConfig</mainClass>
 						</manifest>
 					</archive>
 				</configuration>

@@ -11,7 +11,7 @@
  * the License for the specific language governing permissions and limitations under the License.
  */
 
-package eu.solutions.a2.aws.msk.oracdc.config;
+package solutions.a2.aws.msk.config.oracdc;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -23,6 +23,11 @@ import java.util.Map;
 
 import software.amazon.awssdk.utils.StringUtils;
 
+/**
+ * Wrapper for connect-distributed.properties
+ *  
+ * @author <a href="mailto:averemee@a2.solutions">Aleksei Veremeev</a>
+ */
 public class PropertiesManager {
 
 	private final Map<String, String> props;
