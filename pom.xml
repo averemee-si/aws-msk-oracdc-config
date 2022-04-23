@@ -99,7 +99,7 @@
 					</descriptors>
 					<archive>
 						<manifest>
-							<mainClass>solutions.a2.aws.msk.oracdc.config.AwsMskGlueOracdcConfig</mainClass>
+							<mainClass>solutions.a2.aws.msk.config.oracdc.AwsMskGlueOracdcConfig</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
