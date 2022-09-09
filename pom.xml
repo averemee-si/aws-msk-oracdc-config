@@ -35,7 +35,7 @@
 		<maven.compiler.target>11</maven.compiler.target>
 		<lanterna.version>3.1.1</lanterna.version>
 		<aws.version>2.17.133</aws.version>
-		<slf4j.version>1.7.32</slf4j.version>
+		<slf4j.version>2.0.0</slf4j.version>
 	</properties>
 
 	<dependencies>
@@ -60,10 +60,16 @@
 			<version>${aws.version}</version>
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12/ -->
+		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api/ -->
 		<dependency>
 			<groupId>org.slf4j</groupId>
-			<artifactId>slf4j-log4j12</artifactId>
+			<artifactId>slf4j-api</artifactId>
+			<version>${slf4j.version}</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-reload4j/ -->
+ 		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-reload4j</artifactId>
 			<version>${slf4j.version}</version>
 		</dependency>
 
