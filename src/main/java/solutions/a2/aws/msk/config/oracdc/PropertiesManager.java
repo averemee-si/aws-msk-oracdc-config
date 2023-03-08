@@ -53,12 +53,16 @@ public class PropertiesManager {
 			final String restPort, final String region, final String registryName) {
 		this();
 		setDistributed(groupId, offsetTopic, configTopic, statusTopic);
-		props.put("rest.port", restPort);
+		setRestPort(restPort);
 		setGlueSchemaRegistry(region, registryName);
 	}
 
 	public void setBootstrapServers(final String bootstrapServers) {
 		props.put("bootstrap.servers", bootstrapServers);
+	}
+
+	public void setRestPort(final String restPort) {
+		props.put("rest.port", restPort);
 	}
 
 	public void setGlueSchemaRegistry(
